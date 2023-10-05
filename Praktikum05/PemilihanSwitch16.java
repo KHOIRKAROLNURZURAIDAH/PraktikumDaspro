@@ -12,6 +12,7 @@ public class PemilihanSwitch16 {
         System.out.print("Masukkan angka 2:" );
         angka2 = sc.nextDouble();
         System.out.print("Masukkan operator (+ - *:)");
+
         operator = sc.next() .charAt(0);
 
         switch (operator) {
