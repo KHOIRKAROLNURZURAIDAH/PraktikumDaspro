@@ -23,12 +23,16 @@ public class Segitigaa16 {
                  System.out.println("Segitiga tersebut adalah sama sisi");
         }   else if ((sudut1 == sudut2 || sudut1 == sudut3 || sudut3 == sudut2)) {
                  System.out.println("Segitiga tersebut adalah segitiga sama kaki");
-        }   else {
-            System.out.println("Bukan Segitiga");
+        } else if ((sudut1 == sudut2 || sudut1 == sudut3 || sudut3 == sudut2)) {
+                 System.out.println("Segitiga tersebut adalah segitiga sembarang");
+        }  else {
+             System.out.println("Bukan Segitiga");
+        }
+            
         }
                 
     }
-}
+
     
         
 

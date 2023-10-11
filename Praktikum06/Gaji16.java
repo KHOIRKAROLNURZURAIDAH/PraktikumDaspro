@@ -1,15 +1,15 @@
 import java.util.Scanner;
 public class Gaji16 {
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
         String kategori;
         int penghasilan, gajiBersih;
         double pajak = 0;
 
         System.out.println("Masukkan Kategori : ");
-        kategori = input16.nextLine();
+        kategori =sc.nextLine();
         System.out.println("Masukkan Besarnya Penghasilan : ");
-        penghasilan = input16.nextLine();
+        penghasilan = sc.nextInt();
 
         if (kategori.equalsIgnoreCase("pekerja")) {
             if (penghasilan <= 2000000)
@@ -26,13 +26,11 @@ public class Gaji16 {
             else if (penghasilan <= 3500000)
                 pajak = 0.2;
             else
-                pajak = 0.2;
-            else
                 pajak = 0.25;
             gajiBersih = (int) (penghasilan - ( pajak * penghasilan));
-            System.out.pritn("Penghasilan : " + gajiBersih);
+            System.out.println("Penghasilan Bersih : " + gajiBersih);
         } else
-            System.out.pritn("Masukan Kategori Salah");
+            System.out.println("Masukan Kategori Salah");
     }
     
 }
