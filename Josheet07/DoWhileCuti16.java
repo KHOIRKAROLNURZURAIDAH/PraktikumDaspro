@@ -1,7 +1,7 @@
-import java.uti.Scanner;
+import java.util.Scanner;
 public class DoWhileCuti16 {
     public static void main(String[] args) {
-        Scanner input16 = sc Scanner (System.in);
+        Scanner sc = new Scanner (System.in);
 
 
         int jatahCuti, jumlahHari;
