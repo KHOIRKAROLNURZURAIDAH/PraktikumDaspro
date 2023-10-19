@@ -36,11 +36,10 @@ public class WhileGaji16{
                 i--;
             }
             
-
             totalGajiLembur += gajiLembur;
         }
 
-        System.out.println("Total gaji lembur: " + totalGajiLembur);
+            System.out.println("Total gaji lembur: " + totalGajiLembur);
         
 
     }

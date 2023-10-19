@@ -24,10 +24,15 @@ public class DoWhileCuti16 {
 
                 } else {
                     System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                    break;
+                    continue;
                 }
+            
             }
-        } while (jatahCuti > 0);
+            System.out.print("Apakah Anda ingin melanjutkan (y/t)? ");
+            konfirmasi = sc.next();
+            } while (konfirmasi.equalsIgnoreCase("y") && jatahCuti > 0);
+            System.out.println("terima kasih, program berakhir");
+            
     }
     
 }
