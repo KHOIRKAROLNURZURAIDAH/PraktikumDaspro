@@ -5,12 +5,16 @@ public class ArrayNilai16 {
         Scanner sc = new Scanner (System.in);
         int[] nilaiAkhir = new int[10];
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < nilaiAkhir.length; i++) {
             System.out.print("Masukan nilai akhir mahasiswa ke-" + (i+1) + ": ");
             nilaiAkhir[i] = sc.nextInt();
         }
         for (int i = 0; i < 10; i++) {
-            System.out.println("Nilai akhir mahasiswa ke-" + (i+1) + "adalah " + nilaiAkhir[i] );
+            if (nilaiAkhir[i] > 70){
+            System.out.println("Nilai Akhir Mahasiswa ke-" + (i+1) + " Lulus ");
+            }else{ 
+                 System.out.println("Nilai Akhir Mahasiswa ke-" + (i+1) + " Tidak Lulus ");
+            }
         }
     }
     
