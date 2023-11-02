@@ -20,15 +20,16 @@ public class LinierSearch16 {
         for (int i = 0; i < arrayInt.length; i++) {
             if (arrayInt[i] == key) {
                 hasil = i;
+                System.out.print("Key ada di posisi indeks ke- " + hasil);
                 break;
             }
         }
-        if (hasil != -1){
-            System.out.print("Key ada di posisi indeks ke- " + hasil);
-        }else{
-            System.out.print("Key tidak ditemukan");
+        if (hasil == -1){
+             System.out.print("Key tidak ditemukan");
+        }
+           
         }
         
     }
     
-}
+
