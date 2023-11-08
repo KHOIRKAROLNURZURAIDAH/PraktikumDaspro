@@ -10,7 +10,11 @@ public class ForKelipatan16 {
         System.out.print("Masukkan bilangan (1-9): ");
         bilangan = input16.nextInt();
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+
+        for (int i = 0; i < 5; i++) {
             if (i % bilangan == 0) {
                 total += i;
                 ++counter;
@@ -18,6 +22,7 @@ public class ForKelipatan16 {
             
             }
         }
+
         System.out.println("--- Rentangx:g bilangan 1 sampai 50 ---");
         System.out.printf("Banyak bilangan kelipatan %d : %d \n", bilangan, counter );
         System.out.printf("Total bilagan kelipatan %d : %d \n", bilangan, total);
