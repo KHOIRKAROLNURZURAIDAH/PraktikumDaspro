@@ -7,9 +7,6 @@ public class Square16 {
         System.out.print("Masukkan Jumlah *: ");
         int n = sc.nextInt();
 
-        for(int i = 1; i <= n; i++) {
-            System.out.print("*");
-        }
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 System.out.print("*");
