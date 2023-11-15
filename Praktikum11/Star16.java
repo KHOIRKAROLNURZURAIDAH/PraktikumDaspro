@@ -7,7 +7,7 @@ public class Star16 {
         System.out.print("Masukan juamlah *: = ");
         int n = sc.nextInt();
 
-        for(int i = 1 ; i<=n; i++) {
+        for(int i = 0 ; i<n; i--) {
             System.out.print("*");
         }
     }
