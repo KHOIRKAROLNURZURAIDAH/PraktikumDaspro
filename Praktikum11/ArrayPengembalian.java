@@ -4,19 +4,19 @@ public class ArrayPengembalian {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-      //  String judulBuku;
+        String judulBuku;
         int lamaPengembalian, lamaMeminjam, hasil=-1;
         
         
-        String[] judulBuku = new String[10];
+        String[] judulBukuStrings = new String[10];
         int[] kodeBuku = new int [10];
         int[] stockBuku = new int [10];
 
-        judulBuku[0] = "Sistem Informasi Jaringan";
-        judulBuku[1] = "Visual Code";
-        judulBuku[2] = "Information Technology";
-        judulBuku[3] = "Java Program";
-        judulBuku[4] = "Dasar Pemrograman Web";
+        judulBukuStrings[0] = "Sistem Informasi Jaringan";
+        judulBukuStrings[1] = "Visual Code";
+        judulBukuStrings[2] = "Information Technology";
+        judulBukuStrings[3] = "Java Program";
+        judulBukuStrings[4] = "Dasar Pemrograman Web";
 
         kodeBuku[0] = 12000;
         kodeBuku[1] = 12001;
