@@ -1,4 +1,3 @@
-package Praktikum11;
 import java.util.Scanner;
 public class Tugas2Individu16 {
     public static void main(String[] args) {
