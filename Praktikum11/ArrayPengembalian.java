@@ -34,9 +34,11 @@ public class ArrayPengembalian {
     
             System.out.println("Masukan kode buku yang ingin di pinjam ");
             int kode = sc.nextInt();
+
             for (int i = 0; i < kodeBuku.length; i++) {
                 if (kodeBuku[i] == kode) {
                     hasil = i;
+                }
                     System.out.println("Masukan lamameminjam ");
                     lamaMeminjam = sc.nextInt();
                     System.out.println("Masukan lamapengembalian ");
@@ -47,14 +49,11 @@ public class ArrayPengembalian {
                     }
                     else {
                         System.out.println("Terimakasih telah melakukan Peminjaman");
-                    }                   
-                } if (hasil == -1){
+                    }                  
+                if (hasil==-1) {
                     System.out.print(" Kode Buku tidak ditemukan");
                     break;
-               }
                 }
-                
-            }
-    
+             }
         }
-    
+    }
