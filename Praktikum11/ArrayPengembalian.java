@@ -30,31 +30,36 @@ public class ArrayPengembalian {
         stockBuku[3] = 3;
         stockBuku[4] = 3;
         
+            System.out.println("---------------------------------------------");
             System.out.println("=== SELAMAT DATANG DI PERPUSTAKAAN JTI ===");
-    
+            System.out.println("---------------------------------------------");
             System.out.println("Masukan kode buku yang ingin di pinjam ");
             int kode = sc.nextInt();
 
             for (int i = 0; i < kodeBuku.length; i++) {
                 if (kodeBuku[i] == kode) {
                     hasil = i;
+                    System.out.printf("Buku %s dengan stock %s  \n" , judulBukuStrings[i], stockBuku[i]);
+                    System.out.println("===============================================");
                     System.out.println("Masukan lamameminjam "); 
                     lamaMeminjam = sc.nextInt();
                     System.out.println("Masukan lamapengembalian ");
                     lamaPengembalian = sc.nextInt();
         
                     if (lamaPengembalian>lamaMeminjam){
+                        System.out.println("===----------------------------------------===");
                         System.out.println("Anda terlambat mengembalikan!");
                     } else {
+                        System.out.println("===----------------------------------------===");
                         System.out.println("Terimakasih telah melakukan Peminjaman");
                         } 
                     }
-                }                 
+                }
+                    System.out.println("===----------------------------------------===");
                     if ( hasil == -1 ){
                     System.out.print(" Kode Buku tidak ditemukan");
-                    }
-    }
-                
+                }
+            }       
 }
         
     
