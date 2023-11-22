@@ -38,22 +38,23 @@ public class ArrayPengembalian {
             for (int i = 0; i < kodeBuku.length; i++) {
                 if (kodeBuku[i] == kode) {
                     hasil = i;
-                }
-                    System.out.println("Masukan lamameminjam ");
+                    System.out.println("Masukan lamameminjam "); 
                     lamaMeminjam = sc.nextInt();
                     System.out.println("Masukan lamapengembalian ");
                     lamaPengembalian = sc.nextInt();
         
                     if (lamaPengembalian>lamaMeminjam){
                         System.out.println("Anda terlambat mengembalikan!");
-                    }
-                    else {
+                    } else {
                         System.out.println("Terimakasih telah melakukan Peminjaman");
-                    }                  
-                if (hasil==-1) {
+                        } 
+                    }
+                }                 
+                    if ( hasil == -1 ){
                     System.out.print(" Kode Buku tidak ditemukan");
-                    break;
-                }
-             }
-        }
+                    }
     }
+                
+}
+        
+    
