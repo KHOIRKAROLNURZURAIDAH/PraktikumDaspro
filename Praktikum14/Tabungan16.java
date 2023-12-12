@@ -22,9 +22,9 @@ public static void main(String[] args) {
     int tahun = 10;
 
     double hasilRekursif = tabunganRekursif(modalAwal, tingkatKeuntungan, tahun);
-    System.out.println("Hasil Emas investasi setelah " + tahun + " tahun (rekursif) " + hasilRekursif);
+    System.out.println("Hasil investasi Emas setelah " + tahun + " tahun (rekursif) " + hasilRekursif);
 
     double hasilIteraktif = tabunganRekursif(modalAwal, tingkatKeuntungan, tahun);
-    System.out.println("Hasil Emas investasi setelah " + tahun + " tahun (iteraktif) " + hasilIteraktif);
+    System.out.println("Hasil investasi Emas setelah " + tahun + " tahun (iteraktif) " + hasilIteraktif);
     }
 }
